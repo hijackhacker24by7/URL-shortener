@@ -30,8 +30,8 @@ This project allows users to generate short URLs for given long URLs. It also tr
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd url-shortener
+    git clone git@github.com:hijackhacker24by7/Url_shortner.git
+    cd URL-shortener
     ```
 
 2. Install the dependencies:
@@ -71,13 +71,13 @@ To generate a short URL, send a POST request to `/url/` with the following JSON 
 {
   "url": "https://example.com"
 }
-
+```
 ### The response will contain the short URL ID
-
+```json
 {
   "id": "shortId"
 }
-
+```
 ## To access the original URL, navigate to 
 http://localhost:3000/shortId.
 
